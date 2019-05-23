@@ -39,9 +39,6 @@ ExpMetFilter<-function(File=NULL, report=FALSE){
   library(openxlsx)
   library(RAMClustR)
   
-  importFrom("grDevices", "dev.off", "pdf")
-  importFrom("graphics", "plot", "text")
-  importFrom("utils", "write.csv")
   cat("Choose the unified ExpMISFFilter-file containing the datasets you want to clean:\n\n")
 
   ####Choosing file and establishing number of datasets
