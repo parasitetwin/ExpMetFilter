@@ -35,7 +35,10 @@ ExpMetFilter<-function(File=NULL, report=FALSE){
 
   #Output in format ready for MUVR + printing a report for all the stuff performed above (Number of features removed in each step etc.)
 
-  requireNamespace()
+  #requireNamespace()
+  library(openxlsx)
+  library(RAMClustR)
+  
   importFrom("grDevices", "dev.off", "pdf")
   importFrom("graphics", "plot", "text")
   importFrom("utils", "write.csv")
