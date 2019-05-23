@@ -10,7 +10,7 @@
 #'
 #' @import openxlsx
 #' @import RAMClustR
-#'
+#' @importFrom grDevices graphics utils
 #' @export
 #'
 ExpMetFilter<-function(File=NULL, report=FALSE){
